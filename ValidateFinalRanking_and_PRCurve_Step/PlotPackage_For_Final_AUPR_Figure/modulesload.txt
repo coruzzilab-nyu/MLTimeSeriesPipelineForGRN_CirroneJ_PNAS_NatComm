@@ -1,0 +1,4 @@
+
+
+module purge
+module load r/intel/3.4.2

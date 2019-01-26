@@ -1,0 +1,1 @@
+matlab -nodesktop -nodisplay -nosplash -r "addpath(genpath('./'));try;GRN_DistribSearch('/scratch/jc3832/Root1658g145TF_Quant_df2_1e2_outputdir', 'Script_Arabidopsis_n1658g145TF_Quant_df2_1e2_root_Leave1_LARS', 5, 'error_trend_sign_all', 'gamma', [0.01 0.05 0.1 0.5 1], 'lambda_w', [0.0001 0.005 0.01 0.05 0.1 0.5 1], 'tau', [1 3 6 8]), catch, exit(1) ,end, exit(0)"
